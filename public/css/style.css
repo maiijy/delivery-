@@ -1,0 +1,83 @@
+/*导航栏优化*/
+.navbar-toggle {
+	border: none;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	background: none;
+}
+.navbar-inverse .navbar-brand{
+  color: white;
+  font-size: 24px;
+  font-weight: lighter;
+}
+.navbar-nav a{
+  font-size: 18px;
+}
+/*重写导航栏样式*/
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+    background-color: #222;
+}
+.navbar-inverse .navbar-toggle {
+    border-color: #222;
+}
+.container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {
+    margin-right: -15px;
+    margin-left: -15px;
+    background: #3F51B5;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: #E91E63;
+    font-weight: lighter;
+    box-shadow: 0px -1px 3px 1px #C2185B;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color:white;
+    font-weight: lighter;
+}
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+    background-color: #3f51b5;
+}
+
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+    margin-left: 0px;
+    margin-right: 15px;
+}
+@media (min-width: 768px){
+    .navbar-nav > li{
+        transition: 0.3s ease-in-out
+    }
+    .navbar-nav > li:hover{
+        float: left;
+        background:#e91e63;
+        box-shadow: 0px -1px 3px 1px #C2185B;
+        transition: 0.3s ease-in-out;
+        letter-spacing: 2px;
+    }
+    }
+.myActive{
+    float: left;
+        background:#e91e63;
+        box-shadow: 0px -1px 3px 1px #C2185B;
+        transition: 0.3s ease-in-out;
+        letter-spacing: 2px;
+}
+.myRow{
+    margin-top: 40px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    background: #fff
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+#fixIt{
+    padding:0;
+    margin: 0;
+}
+.queryBtn{
+    border-radius: 0;
+    border:none;
+}
